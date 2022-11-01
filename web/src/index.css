@@ -1,0 +1,206 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #F7F7F3;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+}
+
+img {
+  width: 80%;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Barrio', cursive;
+  font-size: 25px;
+  color: #252619;
+  margin-bottom: 5px;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.content ul {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px;
+  width: 80%;
+}
+
+.content p {
+  text-align: justify;
+  margin: 5px 0;
+  padding: 0;
+  width: 80%
+}
+
+.content a, .portfolio a {
+text-decoration: underline #B7B666;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.p-link {
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  padding: 0;
+  margin: 5px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Barrio', cursive;
+  font-size: 22px;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav {
+  margin: 10px;
+  padding: 0;
+}
+
+.icon {
+  font-size: 20px;
+  margin: auto 5px;
+  color: #252619;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #252619;
+}
+
+.icon:hover{
+  color: #778240;
+}
+
+a:hover {
+  color: #778240;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Barrio', cursive;
+  font-size: 35px;
+  color: #252619;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 80px;
+    text-align: right;
+    margin-top: 20px;
+    padding: 0;
+    margin-top: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: left;
+  }
+  nav ul {
+    list-style-type: none;
+    display: block;
+    text-align: right;
+    font-size: 35px;
+  }
+
+  nav{
+    padding: 0;
+    margin: 10px 40px;
+  }
+
+  .content  p {
+    padding: 3px 0;
+    width: 40%;
+  }
+
+  .content ul {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content li {
+    text-align: justify;
+    margin: 0;
+    padding: 3px 0;
+    width: 40%;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin: 2px auto;
+    padding: 0;
+  }
+  footer {
+    margin: 40px 40px;
+    width: 50px;
+  }
+
+  img {
+    width: 40%;
+    margin: 15px 0;
+  }
+
+  .p-link {
+    font-size: 25px;
+  }
+
+
+
+}
