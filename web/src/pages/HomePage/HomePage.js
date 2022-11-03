@@ -2,7 +2,7 @@ import { MetaTags } from '@redwoodjs/web'
 
 const HomePage = () => {
   return (
-    <main className="content">
+    <main className="short">
       <MetaTags title="Home" description="Home page" />
 
       <p>Hi! I&apos;m a full stack software developer.</p>

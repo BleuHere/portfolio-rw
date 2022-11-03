@@ -87,13 +87,11 @@ footer ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  /* width: 100%; */
 }
 
 footer {
   position: fixed;
   bottom: 0;
-  /* width: 100%; */
 }
 
 nav {
@@ -151,6 +149,7 @@ h1 {
   }
 
   main {
+    padding-top: 60px;
     width: 80%;
     margin-bottom: 40px;
   }
@@ -165,6 +164,14 @@ h1 {
     top: 115px;
   }
 
+  .short {
+    padding-top: 150px;
+  }
+
+  .short p {
+    width: 60%;
+  }
+
   h1 {
     font-size: 45px;
     text-align: center;
@@ -177,6 +184,7 @@ h1 {
     padding-right: 40px;
     position: sticky;
     top: 0;
+    border-bottom: solid 3px
   }
 
   h2 {
@@ -204,11 +212,7 @@ h1 {
   }
 
   main ul {
-    list-style-type: disc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
+    width: 80%;
   }
 
   main  p {
@@ -230,13 +234,11 @@ h1 {
 
   img {
     width: 70%;
-    margin: 15px 0;
+    margin: 10px 0;
   }
 
   .p-link {
     font-size: 25px;
   }
-
-
 
 }

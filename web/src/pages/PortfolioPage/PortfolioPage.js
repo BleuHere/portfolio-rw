@@ -21,6 +21,15 @@ const PortfolioPage = () => {
           CodeWars
         </a>
       </p>
+      <p className="p-link">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://canterburytech.nz/dev-academy-bleuette-hille/"
+        >
+          Canterbury Tech
+        </a>
+      </p>
     </main>
   )
 }
