@@ -2,13 +2,13 @@ import { MetaTags } from '@redwoodjs/web'
 
 const TendPage = () => {
   return (
-    <div className="content">
+    <main>
       <MetaTags title="Tend" description="Tend page" />
 
       <h1>Tend</h1>
       <img
-        alt="screenshot of the opening instruction for Tend the game"
-        src="tend.png"
+        alt="part way through a level of Tend the game"
+        src="tend-garden.png"
       />
       <p>
         Tend is a gardening game I started working on during Dev Academy. The
@@ -25,6 +25,10 @@ const TendPage = () => {
         My presentation runs for the first 5 ish minutes.
       </p>
       <h2>The Story</h2>
+      <img
+        alt="instructions for the first level of Tend the game"
+        src="tend.png"
+      />
       <p>
         Your friend has asked you to look after their garden while they are away
         getting treatment for an illness.
@@ -44,8 +48,16 @@ const TendPage = () => {
       <img alt="a code snippet from tend" src="tend-code.png" />
 
       <p>
-        This game uses React, Redux, a knex database. In the pipeline, I wanted
-        to use React Drag and Drop.
+        This game uses React and Redux on the front end, an AJAX API built on
+        SuperAgent, and Express and Knex.js (a SQL generator) on the backend.
+      </p>
+      <p>
+        I got to practise writing Redux Thunk functions, and learned a lot about
+        the different elements of state in both Redux and React.
+      </p>
+      <p>
+        I also did some component testing, which is something I hadn&apos;t done
+        before. I used TestingLibrary and Jest for this.
       </p>
       <h2>Takeaways</h2>
       <img
@@ -79,7 +91,7 @@ const TendPage = () => {
         This was the first full-stack app I had ever built independently, and I
         feel really proud of what I achieved, and what I learnt.
       </p>
-    </div>
+    </main>
   )
 }
 

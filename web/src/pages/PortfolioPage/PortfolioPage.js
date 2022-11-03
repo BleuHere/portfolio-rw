@@ -3,7 +3,7 @@ import { MetaTags } from '@redwoodjs/web'
 
 const PortfolioPage = () => {
   return (
-    <div className="portfolio">
+    <main className="portfolio">
       <MetaTags title="Portfolio" description="Portfolio page" />
 
       <Link className="p-link" to={routes.foodFuneral()}>
@@ -21,7 +21,7 @@ const PortfolioPage = () => {
           CodeWars
         </a>
       </p>
-    </div>
+    </main>
   )
 }
 

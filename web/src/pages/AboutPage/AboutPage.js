@@ -2,7 +2,7 @@ import { MetaTags } from '@redwoodjs/web'
 
 const AboutPage = () => {
   return (
-    <div className="content">
+    <main>
       <MetaTags title="About" description="About page" />
 
       <h1>About Me</h1>
@@ -29,7 +29,7 @@ const AboutPage = () => {
         cool personal and group projects at the moment. Head to the Projects
         page for more info on those.
       </p>
-    </div>
+    </main>
   )
 }
 
