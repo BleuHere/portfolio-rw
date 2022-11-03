@@ -8,7 +8,7 @@ const TendPage = () => {
       <h1>Tend</h1>
       <img
         alt="screenshot of the opening instruction for Tend the game"
-        src="/images/tend.png"
+        src="tend.png"
       />
       <p>
         Tend is a gardening game I started working on during Dev Academy. The
@@ -41,7 +41,7 @@ const TendPage = () => {
         nature.
       </p>
       <h2>The Stack</h2>
-      <img alt="a code snippet from tend" src="/images/tend-code.png" />
+      <img alt="a code snippet from tend" src="tend-code.png" />
 
       <p>
         This game uses React, Redux, a knex database. In the pipeline, I wanted
@@ -50,7 +50,7 @@ const TendPage = () => {
       <h2>Takeaways</h2>
       <img
         alt="a code snippet from tend readme showing planning"
-        src="/images/readme.png"
+        src="readme.png"
       />
 
       <p>

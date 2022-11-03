@@ -9,7 +9,7 @@ const FoodFuneralPage = () => {
         <h1>Dev Academy Graduation Project</h1>
         <img
           alt="a colourful screenshot of our food blog app - Food Funeral"
-          src="/images/food-funeral.png"
+          src="food-funeral.png"
         />
         <p>
           In a team of four, we collaboratively planned, designed, coded and
@@ -31,7 +31,7 @@ const FoodFuneralPage = () => {
         </p>
         <h2>Human Takeaways</h2>
         <img
-          src="/images/miro-f-f.png"
+          src="miro-f-f.png"
           alt="a screenshot of positive retrospective notes from the team"
         />
         <ul>
@@ -55,7 +55,7 @@ const FoodFuneralPage = () => {
           </li>
         </ul>
         <h2>Tech Takeaways</h2>
-        <img src="/images/test.png" alt="a screenshot of 40 tests passing" />
+        <img src="test.png" alt="a screenshot of 40 tests passing" />
         <ul>
           <li>
             We worked on full-stack tickets which gave me a comprehensive
@@ -77,7 +77,7 @@ const FoodFuneralPage = () => {
         </ul>
         <img
           alt="a zoom capture of the Food Funeral team looking silly"
-          src="/images/team-ff.png"
+          src="team-ff.png"
         />
       </div>
     </>
