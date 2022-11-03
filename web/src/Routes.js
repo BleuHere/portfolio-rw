@@ -15,8 +15,12 @@ const Routes = () => {
   return (
     <Router>
       <Set wrap={PortfolioLayout}>
+        <Route path="/tend" page={TendPage} name="tend" />
+        <Route path="/food-funeral" page={FoodFuneralPage} name="foodFuneral" />
         <Route path="/about" page={AboutPage} name="about" />
         <Route path="/" page={HomePage} name="home" />
+        <Route path="/portfolio" page={PortfolioPage} name="portfolio" />
+        <Route path="/footer" page={FooterPage} name="footer" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
