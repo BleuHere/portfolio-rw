@@ -34,7 +34,7 @@ h2 {
 
 main {
     padding: 0;
-    margin: 0;
+    margin-bottom: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ h1 {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .layout {
     display: flex;
     flex-direction: row-reverse;
@@ -217,6 +217,7 @@ h1 {
   }
 
   footer {
+    width: 10%;
     margin: 40px 40px;
     background-color: transparent;
   }

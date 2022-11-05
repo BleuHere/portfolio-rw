@@ -7,7 +7,7 @@ const HomePage = () => {
 
       <p>Hi! I&apos;m a full stack software developer.</p>
       <p>
-        I&apos;m super pumped about problem solving with and away from the
+        I&apos;m super pumped about problem solving at and away from the
         keyboard, and want to leverage my skills to combat the climate crisis.
       </p>
       <p>
