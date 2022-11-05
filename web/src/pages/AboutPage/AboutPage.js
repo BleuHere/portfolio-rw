@@ -24,10 +24,11 @@ const AboutPage = () => {
         central values.
       </p>
       <p>
-        My stack is built on Node.js, React, Redux and Express. My testing suite
-        includes TestingLibrary, Jest and Supertest. I&apos;m working on some
-        cool personal and group projects at the moment. Head to the Projects
-        page for more info on those.
+        My stack is built on Node.js, Knex.js (SQL generator) and Express on the
+        back-end and React, Redux, AJAX and RESTful APIs on the front end. My
+        testing suite includes TestingLibrary, Jest and Supertest. I&apos;m
+        working on some cool personal and group projects at the moment. Check
+        out my portfolio for more.
       </p>
     </main>
   )
