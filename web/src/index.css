@@ -61,15 +61,12 @@ main p {
 
 main a, .portfolio a {
 text-decoration: underline #B7B666;
-
 }
 
 .p-link {
   font-family: Barrio;
-  width: 40%;
-  padding: 0;
   margin: 5px 0;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
