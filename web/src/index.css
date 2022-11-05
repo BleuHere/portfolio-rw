@@ -9,15 +9,15 @@ html {
 }
 
 header {
-  position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 39px;;
   background-color: #F7F7F3;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   margin: 10px;
+  font-size: 12px;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 h2 {
   text-align: left;
   font-family: 'Barrio', cursive;
-  font-size: 25px;
+  font-size: 18px;
   color: #252619;
   margin-bottom: 5px;
 }
@@ -47,8 +47,13 @@ main ul {
   width: 80%;
 }
 
+main li {
+  font-size: 12px;
+}
+
 main p {
   text-align: justify;
+  font-size: 12px;
   margin: 5px 0;
   padding: 0;
   width: 80%
@@ -56,6 +61,16 @@ main p {
 
 main a, .portfolio a {
 text-decoration: underline #B7B666;
+
+}
+
+.p-link {
+  font-family: Barrio;
+  width: 40%;
+  padding: 0;
+  margin: 5px 0;
+  font-size: 15px;
+  text-align: center;
 }
 
 .portfolio {
@@ -65,13 +80,9 @@ text-decoration: underline #B7B666;
   width: 100%;
 }
 
-.p-link {
-  font-family: 'Open Sans', sans-serif;
-  width: 40%;
-  padding: 0;
-  margin: 5px 0;
-  font-size: 15px;
-  text-align: center;
+a {
+  text-decoration: none;
+  color: #252619;
 }
 
 nav ul {
@@ -80,28 +91,31 @@ nav ul {
   display: flex;
   justify-content: space-around;
   font-family: 'Barrio', cursive;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 footer ul {
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
 footer {
+  width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: #F7F7F3;
+  padding-top: 5px;
 }
 
 nav {
-  margin: 10px;
   padding: 0;
   background-color: #F7F7F3;
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 18px;
   margin: auto 5px;
   color: #252619;
 }
@@ -109,11 +123,6 @@ nav {
 .link {
   text-decoration: none;
   color: black;
-}
-
-a {
-  text-decoration: none;
-  color: #252619;
 }
 
 .icon:hover{
@@ -127,11 +136,17 @@ a:hover {
 h1 {
   text-align: center;
   font-family: 'Barrio', cursive;
-  font-size: 35px;
+  font-size: 23px;
   color: #252619;
   margin-bottom: 5px;
   background-color: #F7F7F3;
 
+}
+
+.title {
+  font-size: 35px;
+  position: sticky;
+  top: 0;
 }
 
 
@@ -140,6 +155,10 @@ h1 {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+  }
+
+  main p {
+    font-size: 18px;
   }
 
   header {
@@ -170,10 +189,11 @@ h1 {
 
   .short p {
     width: 60%;
+
   }
 
   h1 {
-    font-size: 45px;
+    font-size: 50px;
     text-align: center;
   }
 
@@ -188,7 +208,7 @@ h1 {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 10px;
   }
 
@@ -201,6 +221,7 @@ h1 {
 
   footer {
     margin: 40px 40px;
+    background-color: transparent;
   }
 
   nav ul {
@@ -215,14 +236,11 @@ h1 {
     width: 80%;
   }
 
-  main  p {
-    padding: 3px 0;
-  }
-
   main li {
     text-align: justify;
     margin: 0;
     padding: 3px 0;
+    font-size: 18px;
   }
 
   .icon {
@@ -238,7 +256,7 @@ h1 {
   }
 
   .p-link {
-    font-size: 25px;
+    font-size: 30px;
     font-family: Barrio;
     margin: 10px 0;
   }

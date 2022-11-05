@@ -5,7 +5,6 @@ const AboutPage = () => {
     <main>
       <MetaTags title="About" description="About page" />
 
-      <h1>About Me</h1>
       <p>
         My goal is to actively combat social and environmental issues through
         building useful and elegant tech solutions. I believe that meaningful
@@ -39,7 +38,11 @@ const AboutPage = () => {
       </p>
       <p>
         Please send me a message on{' '}
-        <a href="https://www.linkedin.com/in/bleuette-hille-567873224/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/bleuette-hille-567873224/"
+        >
           LinkedIn
         </a>{' '}
         so that we can make this communication two sided. I&apos;d love to hear

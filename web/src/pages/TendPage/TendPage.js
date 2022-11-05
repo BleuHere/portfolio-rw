@@ -16,10 +16,20 @@ const TendPage = () => {
         interest in gardening.
       </p>
       <p>
-        <a href="https://github.com/BleuHere/tend-to">Here is the repo.</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/BleuHere/tend-to"
+        >
+          Here is the repo.
+        </a>
       </p>
       <p>
-        <a href="https://www.youtube.com/watch?v=a2U13qFJhvY&ab_channel=DevAcademyAotearoa">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/watch?v=a2U13qFJhvY&ab_channel=DevAcademyAotearoa"
+        >
           Here is a video presentation.
         </a>{' '}
         My presentation runs for the first 5 ish minutes.

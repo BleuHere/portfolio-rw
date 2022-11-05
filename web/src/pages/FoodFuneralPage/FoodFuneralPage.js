@@ -16,10 +16,20 @@ const FoodFuneralPage = () => {
         intensity project allowed me to hone both my technical and human skills.
       </p>
       <p>
-        <a href="https://github.com/BleuHere/Food-Funeral">Here is the repo.</a>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/BleuHere/Food-Funeral"
+        >
+          Here is the repo.
+        </a>
       </p>
       <p>
-        <a href="https://www.youtube.com/watch?v=UqlEC-GZDB8&ab_channel=DevAcademyAotearoa">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.youtube.com/watch?v=UqlEC-GZDB8&ab_channel=DevAcademyAotearoa"
+        >
           Here is a video presentation.{' '}
         </a>{' '}
         I speak at 4.45, but the whole presentation is informative and
